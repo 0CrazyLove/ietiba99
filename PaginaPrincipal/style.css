@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica", sans-serif;
+    
+  }
+
+  
+
+  .part1 {
+    background-color: #27AE60;
+    height: 39vh;
+    width: 100%;
+    
+  }
+  .header{
+    box-shadow: 0 0 5px ;
+  }
+  
+ 
+.parte3{
+    
+        background-color: #27AE60;
+        height: 9vh;
+        width: 100%;
+    
+    
+}
+.parte3 h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+.creditos{
+    color: white;
+}
+
+
+
+.title {
+
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+   
+}
+
+.nit {
+    text-align: center;
+   
+}
+
+
+.imagen {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.imagen img {
+    margin-right: 150px;
+}
+
+.talleres {
+    text-align: center;
+    color: #27AE60;
+    text-shadow: 2px 2px 5px #27AE60 ;
+    
+
+}
+
+.slider-container {
+    position: relative;
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.sliderTrans {
+    display: flex;  
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    border: solid #27AE60;
+    
+}
+.capa1{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgb(0,0,0, 0.6);
+  display: flex; 
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.6s, visibility 0.6s;
+  font-size: 24px;
+  
+}
+
+.sliderTrans:hover .capa1{
+  opacity: 1;
+  visibility: visible;
+  
+}
+
+.capa1 h2{
+  margin-top:160px;
+  margin-left:200px;
+  color:gray;
+  text-shadow: 2px 2px 5px black;
+  
+  
+}
+.capa2 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.6s, visibility 0.6s;
+  font-size: 24px;
+}
+.sliderTrans:hover .capa2{
+  opacity: 1;
+  visibility: visible;
+  
+}
+.capa2 h2{
+  margin-top:160px;
+  margin-left:830px;
+  color:gray;
+  text-shadow: 2px 2px 5px black;
+  
+  
+}
+.capa3 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.6s, visibility 0.6s;
+  font-size: 24px;
+}
+.sliderTrans:hover .capa3{
+  opacity: 1;
+  visibility: visible;
+  
+}
+.capa3 h2{
+  margin-top:160px;
+  margin-left:1450px;
+  color:gray;
+  text-shadow: 2px 2px 5px black;
+  
+}
+.capa4 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.6s, visibility 0.6s;
+  font-size: 24px;
+}
+.sliderTrans:hover .capa4{
+  opacity: 1;
+  visibility: visible;
+  
+}
+.capa4 h2{
+  margin-top:160px;
+  margin-left:2000px;
+  color:gray;
+  text-shadow: 2px 2px 5px black;
+  
+}
+.capa5 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.6s, visibility 0.6s;
+  font-size: 24px;
+}
+.sliderTrans:hover .capa5{
+  opacity: 1;
+  visibility: visible;
+  
+}
+.capa5 h2{
+  margin-top:160px;
+  margin-left:2610px;
+  color:gray;
+  text-shadow: 2px 2px 5px black;
+  
+}
+.capa6 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.6s, visibility 0.6s;
+  font-size: 24px;
+}
+.sliderTrans:hover .capa6{
+  opacity: 1;
+  visibility: visible;
+  
+}
+.capa6 h2{
+  margin-top:160px;
+  margin-left:3260px;
+  color:gray;
+  text-shadow: 2px 2px 5px black;
+  
+}
+.capa7 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.6s, visibility 0.6s;
+  font-size: 24px;
+}
+.sliderTrans:hover .capa7{
+  opacity: 1;
+  visibility: visible;
+  
+}
+.capa7 h2{
+  margin-top:160px;
+  margin-left:3800px;
+  color:gray;
+  text-shadow: 2px 2px 5px black;
+  
+}
+.capa8 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.6s, visibility 0.6s;
+  font-size: 24px;
+}
+.sliderTrans:hover .capa8{
+  opacity: 1;
+  visibility: visible;
+  
+}
+.capa8 h2{
+  margin-top:160px;
+  margin-left:4400px;
+  color:gray;
+  text-shadow: 2px 2px 5px black;
+  
+}
+
+
+.sliderTrans ul {
+    display: flex;
+    width: 4800px;
+    height: 100%;
+    animation: slide 40s infinite alternate ease-in-out;
+}
+
+.sliderTrans li {
+    list-style: none;
+    display: inline-block;
+}
+
+.sliderTrans img {
+    width: 600px;
+    height: 400px;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }           
+    12.5% { transform: translateX(0); }       
+    25% { transform: translateX(-600px); }  
+    37.5% { transform: translateX(-1200px); } 
+    50% { transform: translateX(-1800px); } 
+    62.5% { transform: translateX(-2400px); }  
+    75% { transform: translateX(-3000px); } 
+    87.5% { transform: translateX(-3600px); } 
+    100% { transform: translateX(-4200px); }   
+    112.5% { transform: translateX(-4200px); } 
+    125% { transform: translateX(-3600px); }
+    137.5% { transform: translateX(-3000px); } 
+    150% { transform: translateX(-2400px); } 
+    162.5% { transform: translateX(-1800px); }   
+    175% { transform: translateX(-600px); }       
+    187.5% { transform: translateX(0); }       
+}
+
+
+
+
+
+
+.inform, .metalisteria, .elect, .Ccofeccion, .dGra, .Eban, .Ccivil, .mecanica {
+    position: absolute;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.inform {
+    top: 50%;
+    margin-left: -375px;
+    transform: translateY(-400%);
+    width: 350px;
+    
+    /*diseño*/
+    border: 3px solid rgba(100,100,100,0.1);
+    margin-bottom: 20px;
+    border-radius: 8px;
+  cursor: pointer;
+  background-size:300%;
+  background-image: linear-gradient(to right, #fff, #27AE60, #fff);
+
+   
+}
+.link-img-1, .link-img-2,.link-img-3,.link-img-4,.link-img-5,.link-img-6,.link-img-7,.link-img-8{
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+.link-boton1,.link-boton2,.link-boton3,.link-boton4,.link-boton5,.link-boton6,.link-boton7,.link-boton8{
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+
+.capa1, .capa2, .capa3, .capa4, .capa5, .capa6, .capa7, .capa8 {
+  pointer-events: none;
+}
+
+.link-img-1, .link-img-2, .link-img-3, .link-img-4, .link-img-5, .link-img-6, .link-img-7, .link-img-8 {
+  pointer-events: all; 
+}
+
+
+.metalisteria {
+    top: 50%;
+    margin-left: 624px;
+    transform: translateY(-400%);
+    width: 350px;
+    /*diseño*/
+  border: 3px solid rgba(100,100,100,0.1);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-size:300%;
+  background-image:linear-gradient(to right,#28b96ea9, #fff,#fff,#fff);
+}
+
+.elect {
+    top: 70%;
+    margin-left: -375px;
+    width: 300px;
+    transform: translateY(-370%);
+    /*diseño*/
+  border: 3px solid rgba(100,100,100,0.1);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-size:300%;
+  background-image:linear-gradient(to left, #fff, #27AE60, #fff) ;
+}
+
+.Ccofeccion {
+    top: 70%;
+    margin-left: 674px;
+    transform: translateY(-370%);
+    width: 300px;
+    /*diseño*/
+  border: 3px solid rgba(100,100,100,0.1);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-size:300%;
+  background-image:linear-gradient(to right,#28b96ea9, #fff,#fff,#fff);;
+}
+
+.dGra {
+    top: 90%;
+    margin-left: -375px;
+    transform: translateY(-340%);
+    width: 250px;
+    /*diseño*/
+  border: 3px solid rgba(100,100,100,0.1);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-size:300%;
+  background-image:linear-gradient(to left, #fff, #27AE60, #fff) ;
+}
+.Ccivil{
+    top: 110%;
+    margin-left: -375px;
+    transform: translateY(-340%);
+    width: 200px;
+    /*diseño*/
+  border: 3px solid rgba(100,100,100,0.1);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-size:300%;
+  background-image:linear-gradient(to left, #fff, #27AE60, #fff) ;
+
+}
+
+.Eban {
+    top: 90%;
+    margin-left: 724px;
+    transform: translateY(-340%);
+    width: 250px;
+    /*diseño*/
+  border: 3px solid rgba(100,100,100,0.1);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-size:300%;
+  background-image:linear-gradient(to right,#28b96ea9, #fff,#fff,#fff);
+    
+}
+.mecanica{
+    top: 110%;
+    margin-left: 774px;
+    transform: translateY(-340%);
+    width: 200px;
+    /*diseño*/
+  border: 3px solid rgba(100,100,100,0.1);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-size:300%;
+  background-image:linear-gradient(to right,#28b96ea9, #fff,#fff,#fff);
+
+}
